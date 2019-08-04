@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AndroidTv" verbose="1">
+    <parameter name="os" value="androidTv"></parameter>
+    <test name="tvHomePage">
+        <classes>
+            <class name="TestTvApp" />
+        </classes>
+    </test>
+</suite>

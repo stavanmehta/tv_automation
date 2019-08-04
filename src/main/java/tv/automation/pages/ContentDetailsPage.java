@@ -1,7 +1,7 @@
 package tv.automation.pages;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class ContentDetailsPage extends BasePage {
@@ -20,7 +20,7 @@ public class ContentDetailsPage extends BasePage {
         return contentDetailsDescription;
     }
 
-    public ContentDetailsPage(AndroidDriver driver) {
+    public ContentDetailsPage(AppiumDriver driver) {
         super(driver);
     }
 }

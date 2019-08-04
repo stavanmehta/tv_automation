@@ -1,7 +1,7 @@
 package tv.automation.pages;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidBy;
 import io.appium.java_client.pagefactory.AndroidFindAll;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -69,7 +69,7 @@ public class TvAppPage extends BasePage {
         return articles;
     }
 
-    public TvAppPage(AndroidDriver driver) {
+    public TvAppPage(AppiumDriver driver) {
         super(driver);
     }
 
