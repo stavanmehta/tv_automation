@@ -16,3 +16,6 @@ Android TV automation using Appium
 
 ##Execute Test suite
 `mvn clean test`
+
+## Android TV project
+https://github.com/Kentico/cloud-sample-app-android-tv
