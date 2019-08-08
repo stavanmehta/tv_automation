@@ -14,6 +14,12 @@ Android TV automation using Appium
  ANDROID_HOME=/Users//Library/Android/sdk export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build- tools:$ANDROID_HOME/tools/bin
 10. Create emulator with Android TV and API level-26
 
+## Bash Profile
+export PATH="/usr/local/opt/openssl/bin":$PATH
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_202)
+export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools/28.0.3:$ANDROID_HOME/tools/bin/:$JAVA_HOME/bin
+
 ##Execute Test suite
 `mvn clean test`
 
